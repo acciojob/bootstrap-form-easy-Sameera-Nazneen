@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+.container h1 {
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form .form-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form-group input,
+select {
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(107, 107, 250);
+  color: white;
+  border-radius: 5px;
+}
